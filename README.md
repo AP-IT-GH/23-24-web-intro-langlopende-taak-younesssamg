@@ -1,5 +1,18 @@
 # 💻 PROJECT: WD1 - Langlopende Taak
 
+- [💻 PROJECT: WD1 - Langlopende Taak](#-project-wd1---langlopende-taak)
+  - [🥅 Overzicht en Leerdoelen](#-overzicht-en-leerdoelen)
+  - [🔍 Langlopende Taak](#-langlopende-taak)
+  - [🛠️ Opdrachten](#️-opdrachten)
+  - [💡 Belangrijke Termen](#-belangrijke-termen)
+  - [📚 Bronnen](#-bronnen)
+  - [🏆 **Evaluatie**](#-evaluatie)
+    - [HTML](#html)
+    - [Project \& Documentatie](#project--documentatie)
+    - [Project \& Documentatie](#project--documentatie-1)
+    - [Javascript \& API's](#javascript--apis)
+    - [Bronbestanden](#bronbestanden)
+
 ## 🥅 Overzicht en Leerdoelen
 
   - De student past HTML toe voor de constructie van een webpagina en hedendaagse webfunctionaliteiten.
@@ -7,6 +20,7 @@
   - De student gebruikt de juiste bestandsformaten voor beeld, video en audio voor gebruik op het web.
   - De student documenteert de constructie van zijn/haar website op heldere wijze.
   - De student realiseert een website in HTML en CSS op basis van een gegeven wireframe/mockup.
+  - De student host/structureert websites op een webserver.
   - De student voegt eenvoudige JavaScript-functionaliteiten toe aan een website.
 
 ## 🔍 Langlopende Taak
@@ -23,9 +37,11 @@ De website gaat over een onderwerp dat je zelf kiest, met telkens 6 topics die h
  - Lord of the Rings (The One API)
  - ...
 
-Je kan een grotere lijst vinden op websites als [apilist.fun](https://apilist.fun/). **Let op!** Bij sommige API's heb je een *key* nodig. Soms is die gemakkelijk te krijgen, soms wat moeilijker. We zullen een voorbeeld hiervan zien tijdens de les.
+Je kan een grotere lijst vinden op websites als [apilist.fun](https://apilist.fun/). 
 
-**BELANGRIJK!** Je moet niet alle teksten volledig zelf schrijven. Maak *voor de teksten* gerust gebruik van tools als chat GPT.
+> **⚠️Let op!⚠️** Bij sommige API's heb je een *key* nodig. Soms is die gemakkelijk te krijgen, soms wat moeilijker. We zullen een voorbeeld hiervan zien tijdens de les, maar je kan altijd na de les even vragen om dit mee uit te zoeken.
+
+**BELANGRIJK!** Je moet niet alle teksten volledig zelf schrijven. Maak *om de teksten te schrijven* gerust gebruik van tools als chat GPT.
 
 Je website bevat verschillende pagina's:
  - **home** (`index.html`): 1 pagina met een beschrijving van jouw onderwerp. Deze pagina *moet* bevatten:
@@ -47,16 +63,58 @@ Je website bevat verschillende pagina's:
    - een kaart met markering om een locatie aan te duiden
 
 Elke pagina moet ook voldoen aan de volgende eisen:
- - De layout is *responsive*, met andere woorden: de layout past zich aan voor grote en kleine schermen, voor zowel een horizontale als verticale weergave.
- - Elke pagina bevat een duidelijke, overzichtelijke *menu*, waarbij je naar elke pagina kunt surfen.
- - De menu bevat een *zoekveld* om naar onderdelen te zoeken.
+ - **De layout is *responsive***, met andere woorden: de layout past zich aan voor grote en kleine schermen, voor zowel een horizontale als verticale weergave.
+ - **Elke pagina bevat een duidelijke *menu***, waarbij je naar elke pagina kunt surfen.
+ - **De menu bevat een *zoekveld*** om naar onderdelen te zoeken.
+
+Als laatste zorg je dat je website gehost wordt als een Github Pages website (wordt tijdens de les behandeld).
 
 ## 🛠️ Opdrachten
 
 <details>
-<summary>opdracht 1: </summary>
+<summary>opdracht 1: Onderwerp Vinden</summary>
 
-> 
+> - [ ] Benoem je onderwerp
+> - [ ] Bedenk welke pagina's je nodig hebt
+> - [ ] Verzamel de nodige inhoud
+>   - teksten, afbeeldingen, titels, ...
+> - [ ] Onderzoek stijlen van de concurrentie
+>   - bekijk andere websites die over een gelijkaardig thema gaan
+
+</details>
+
+---
+
+<details>
+<summary>opdracht 2: Mock-Ups</summary>
+
+> - [ ] Werk je pagina's uit in mock-ups
+>   - kleurloos, focus op layout en ruimte
+> - [ ] Bepaal waar de verzamelde inhoud (uit opdracht 1) moet komen staan
+> - [ ] Bepaal de huisstijl
+>   - 60-30-10 principe: dominante kleur, complementaire kleur, contrast kleur (+ eventuele accent kleur)
+
+</details>
+
+---
+
+<details>
+<summary>opdracht 3: HTML & Bootstrap</summary>
+
+> - [ ] Organiseer je project in een duidelijke mappenstructuur
+> - [ ] Maak de nodige bestanden aan
+> - [ ] Bouw je website met behulp van HTML & Bootstrap (CSS)
+
+</details>
+
+---
+
+<details>
+<summary>opdracht 4: API's en Libraries</summary>
+
+> - [ ] Implementeer een kaart (met behulp van `leaflet.js`)
+> - [ ] Plaats een marker op de kaart
+> - [ ] Implementeer minstens 1 extra API
 
 </details>
 
@@ -71,13 +129,43 @@ Term  | Definitie
 
 ## 📚 Bronnen
 
- - 
+- [AP cursus Webtechnologie (HTML)](https://apwt.gitbook.io/g_webtechnologie/html/html-structuur)
+- [w3schools](https://www.w3schools.com)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ---
 
-## 🏆 Evaluatie
+## 🏆 **Evaluatie**
 
-### 
+### HTML
 
-A | B | C | D | E
---- | --- | --- | --- | ---
+doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
+--- | --- | --- | --- | --- | --- |
+***De student past HTML toe voor de constructie van een webpagina en hedendaagse webfunctionaliteiten.***| Elementen worden correct genest. Elk element bestaat uit de juiste openings- en sluitingstag. Elementen zijn voorzien van de vereiste attributen en elk attribute is ingevuld met een correcte waarde. | Elementen worden correct genest. Elk element bestaat uit de juiste openings- en sluitingstag. Elementen zijn voorzien van de vereiste attributen. Attributes bevatten een foutieve waarde. | Elementen worden correct genest. Elk element bestaat uit de juiste openings- en sluitingstag. Elementen zijn niet voorzien van de vereiste attributen. Attributes bevatten een foutieve waarde. | Elementen worden niet correct genest. Elk element bestaat uit de juiste openings- en sluitingstag. Elementen zijn niet voorzien van de vereiste attributen. Attributes bevatten een foutieve waarde.  | Elementen worden niet correct genest. Elementen missen de juiste openings- of sluitingstag. Attributen werden niet correct gebruikt. Er zijn te weinig elementen aanwezig om de inhoud correct over te brengen. 
+***De student hanteert een correcte syntax en semantiek bij de structurele opbouw in HTML.*** |De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen, en er is gekozen voor een optimale oplossing. | De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen. Er zijn echter betere oplossingen die je had kunnen bedenken en gebruiken. | De semantisch juiste elementen werden niet altijd gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen. | De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn niet ingevuld waar nodig en verbeteren de semantiek onvoldoende. Elementen zijn onderverdeeld in grotere en kleinere elementen. | De semantisch juiste elementen werden niet of verkeerd gebruikt. De id's en classes zijn onvoldoende ingevuld. Elementen zijn onvoldoende onderverdeeld in grotere en kleinere elementen.
+
+
+### Project & Documentatie
+
+doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
+--- | --- | --- | --- | --- | --- |
+***De student documenteert de constructie van zijn/haar website op heldere wijze.*** | De code is voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt met duidelijke commentaar om code-wijzigingen bij te houden. | De code is meestal voorzien van duidelijke en uitgebreide commentaar, maar mist dit op minder belangrijke plekken. Een Version Control System wordt regelmatig gebruikt met duidelijke commentaar om code-wijzigingen bij te houden. | De code is meestal voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt, maar mist soms duidelijke commit-commentaren. | De code is onvoldoende voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt. | De code is niet voorzien van commentaar.  Een Version Control System is te weinig gebruikt, of mist te vaak duidelijke commit-commentaren.
+***De student host/structureert websites op een webserver.*** | Bestanden zijn georganiseerd met behulp van een duidelijke naamgeving en mappenstructuur. De website werkt en is bereikbaar via een url. | | |  | Een mappenstructuur is onvoldoende aanwezig. Bestanden hebben geen duidelijke naam. De website is niet bereikbaar via een url.
+
+### Project & Documentatie
+
+doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
+--- | --- | --- | --- | --- | --- |
+***De student realiseert een website in HTML en CSS op basis van een gegeven wireframe/mockup.*** | Layout en ruimte zijn correct geïmplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld. | Layout en ruimte zijn correct geïmplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld.  Er zijn echter duidelijk oplossingen die korter of optimaler zijn. | Ruimte is onvoldoende geimplementeerd. De layout is correct geimplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld.  | Ruimte is onvoldoende geïmplementeerd. De website is onvoldoende responsive. Je layout is correct volgens de mock-up en je hebt de website ontwikkeld volgens het Mobile First principe. | Layout, ruimte en interactie zijn onvoldoende geïmplementeerd. De website is niet responsive. Er werd niet gewerkt volgens het Mobile First principe.
+
+### Javascript & API's
+
+doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
+--- | --- | --- | --- | --- | --- |
+***De student voegt eenvoudige JavaScript-functionaliteiten toe aan een website.***
+
+### Bronbestanden
+
+doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
+--- | --- | --- | --- | --- | --- |
+***De student gebruikt de juiste bestandsformaten voor beeld, video en audio voor gebruik op het web.*** | Bronnen zijn (waar nodig) lokaal opgeslagen. Alle bronnen werken. Bronnen zijn (waar nodig) voorzien van meerdere resoluties. Alt-teksten en captions zijn voorzien waar nodig, en bevatten een duidelijke omschrijving. | Bronnen zijn (waar nodig) lokaal opgeslagen. Alle bronnen werken. Bronnen zijn (waar nodig) voorzien van meerdere resoluties. Alt-teksten en captions zijn voorzien waar nodig, maar missen soms een duidelijke beschrijving. | Bronnen zijn (waar nodig) lokaal opgeslagen. Alle bronnen werken. Bronnen zijn niet voorzien van meerdere resoluties. Alt-teksten en captions zijn voorzien waar nodig. | Externe bronnen worden gebruikt waar interne bronnen een betere oplossing zijn. Alle bronnen werken. Alt-teksten en captions zijn voorzien waar nodig. | Enkele bronnen werken niet. Er werd gekozen voor ongeschikte bestandsformaten. Alt-teksten of captions zijn onvoldoende aanwezig.
