@@ -4,14 +4,13 @@
   - [🥅 Overzicht en Leerdoelen](#-overzicht-en-leerdoelen)
   - [🔍 Langlopende Taak](#-langlopende-taak)
   - [🛠️ Opdrachten](#️-opdrachten)
-  - [💡 Belangrijke Termen](#-belangrijke-termen)
   - [📚 Bronnen](#-bronnen)
   - [🏆 **Evaluatie**](#-evaluatie)
-    - [HTML](#html)
-    - [Project \& Documentatie](#project--documentatie)
-    - [Project \& Documentatie](#project--documentatie-1)
-    - [Javascript \& API's](#javascript--apis)
-    - [Bronbestanden](#bronbestanden)
+    - [HTML (30%)](#html-30)
+    - [Project \& Documentatie (15%)](#project--documentatie-15)
+    - [Opmaak (20%)](#opmaak-20)
+    - [Javascript \& API's (25%)](#javascript--apis-25)
+    - [Bronbestanden (10%)](#bronbestanden-10)
 
 ## 🥅 Overzicht en Leerdoelen
 
@@ -120,12 +119,6 @@ Als laatste zorg je dat je website gehost wordt als een Github Pages website (wo
 
 ---
 
-## 💡 Belangrijke Termen
-
-Term  | Definitie 
----   | ---       
-    | 
-
 
 ## 📚 Bronnen
 
@@ -137,7 +130,7 @@ Term  | Definitie
 
 ## 🏆 **Evaluatie**
 
-### HTML
+### HTML (30%)
 
 doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 --- | --- | --- | --- | --- | --- |
@@ -145,26 +138,26 @@ doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 ***De student hanteert een correcte syntax en semantiek bij de structurele opbouw in HTML.*** |De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen, en er is gekozen voor een optimale oplossing. | De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen. Er zijn echter betere oplossingen die je had kunnen bedenken en gebruiken. | De semantisch juiste elementen werden niet altijd gebruikt. De id's en classes van elementen zijn ingevuld waar nodig en verbeteren de semantiek. Elementen zijn onderverdeeld in grotere en kleinere elementen. | De semantisch juiste elementen werden gebruikt. De id's en classes van elementen zijn niet ingevuld waar nodig en verbeteren de semantiek onvoldoende. Elementen zijn onderverdeeld in grotere en kleinere elementen. | De semantisch juiste elementen werden niet of verkeerd gebruikt. De id's en classes zijn onvoldoende ingevuld. Elementen zijn onvoldoende onderverdeeld in grotere en kleinere elementen.
 
 
-### Project & Documentatie
+### Project & Documentatie (15%)
 
 doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 --- | --- | --- | --- | --- | --- |
 ***De student documenteert de constructie van zijn/haar website op heldere wijze.*** | De code is voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt met duidelijke commentaar om code-wijzigingen bij te houden. | De code is meestal voorzien van duidelijke en uitgebreide commentaar, maar mist dit op minder belangrijke plekken. Een Version Control System wordt regelmatig gebruikt met duidelijke commentaar om code-wijzigingen bij te houden. | De code is meestal voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt, maar mist soms duidelijke commit-commentaren. | De code is onvoldoende voorzien van duidelijke en uitgebreide commentaar. Een Version Control System wordt regelmatig gebruikt. | De code is niet voorzien van commentaar.  Een Version Control System is te weinig gebruikt, of mist te vaak duidelijke commit-commentaren.
-***De student host/structureert websites op een webserver.*** | Bestanden zijn georganiseerd met behulp van een duidelijke naamgeving en mappenstructuur. De website werkt en is bereikbaar via een url. | | |  | Een mappenstructuur is onvoldoende aanwezig. Bestanden hebben geen duidelijke naam. De website is niet bereikbaar via een url.
+***De student host/structureert websites op een webserver.*** | Bestanden zijn georganiseerd met behulp van een duidelijke naamgeving en een optimale mappenstructuur. De website werkt en is bereikbaar via een url. | Bestanden zijn georganiseerd met behulp van een duidelijke naamgeving en een mappenstructuur, hoewel het soms te complex in elkaar zit. De website werkt en is bereikbaar via een url. | Bestanden zijn georganiseerd met behulp van een mappenstructuur, maar de naamgeving is soms verwarrend of foutief. De website werkt en is bereikbaar via een url.  | Bestanden zijn georganiseerd met behulp van een mappenstructuur. De website werkt lokaal, maar is niet bereikbaar via een url. | Een mappenstructuur is onvoldoende aanwezig. Bestanden hebben geen duidelijke naam. De website is niet bereikbaar via een url.
 
-### Project & Documentatie
+### Opmaak (20%)
 
 doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 --- | --- | --- | --- | --- | --- |
 ***De student realiseert een website in HTML en CSS op basis van een gegeven wireframe/mockup.*** | Layout en ruimte zijn correct geïmplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld. | Layout en ruimte zijn correct geïmplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld.  Er zijn echter duidelijk oplossingen die korter of optimaler zijn. | Ruimte is onvoldoende geimplementeerd. De layout is correct geimplementeerd volgens de mock-up. De website is responsive en Mobile First ontwikkeld.  | Ruimte is onvoldoende geïmplementeerd. De website is onvoldoende responsive. Je layout is correct volgens de mock-up en je hebt de website ontwikkeld volgens het Mobile First principe. | Layout, ruimte en interactie zijn onvoldoende geïmplementeerd. De website is niet responsive. Er werd niet gewerkt volgens het Mobile First principe.
 
-### Javascript & API's
+### Javascript & API's (25%)
 
 doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 --- | --- | --- | --- | --- | --- |
-***De student voegt eenvoudige JavaScript-functionaliteiten toe aan een website.***
+***De student voegt eenvoudige JavaScript-functionaliteiten toe aan een website.*** | De zoekfunctie werkt en produceert goede zoekresultaten. De Leaflet library werd correct gebruikt en geimplementeerd op meer dan één pagina. Een extra API werd aangesproken en verrijkt de website op een zinnige wijze. | De zoekfunctie werkt en produceert goede zoekresultaten. De Leaflet library werd correct gebruikt en geimplementeerd op meer dan één pagina. Een extra API werd aangesproken en verrijkt de website op een zinnige wijze. Er zijn echter betere oplossingen die je had kunnen bedenken en gebruiken. | De zoekfunctie werkt. De Leaflet library werd correct gebruikt en geimplementeerd. Een extra API werd aangesproken. | De zoekfunctie werkt. De Leaflet library werd niet correct gebruikt. Een extra API werd aangesproken. | De zoekfunctie werkt niet. De Leaflet library werd niet gebruikt of werd op te weinig plaatsen geimplementeerd.
 
-### Bronbestanden
+### Bronbestanden (10%)
 
 doelstelling | 19-20   | 15-18   | 12-14   | 10-11   | 0-9   |
 --- | --- | --- | --- | --- | --- |
