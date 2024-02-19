@@ -1,18 +1,18 @@
-# 💻 PROJECT: WD1 - Langlopende Taak
+# 💻 PROJECT: langlopende taak
 
-- [💻 PROJECT: WD1 - Langlopende Taak](#-project-wd1---langlopende-taak)
-  - [🥅 Overzicht en Leerdoelen](#-overzicht-en-leerdoelen)
-  - [🔍 Langlopende Taak](#-langlopende-taak)
-  - [🛠️ Opdrachten](#️-opdrachten)
-  - [📚 Bronnen](#-bronnen)
-  - [🏆 **Evaluatie**](#-evaluatie)
+- [💻 PROJECT: langlopende taak](#-project---langlopende-taak)
+  - [🥅 overzicht en leerdoelen](#-overzicht-en-leerdoelen)
+  - [🔍 langlopende taak](#-langlopende-taak)
+  - [🛠️ opdrachten](#️-opdrachten)
+  - [📚 bronnen](#-bronnen)
+  - [🏆 **evaluatie**](#-evaluatie)
     - [HTML (30%)](#html-30)
-    - [Opmaak (20%)](#opmaak-20)
-    - [Javascript \& API's (25%)](#javascript--apis-25)
-    - [Bronbestanden (10%)](#bronbestanden-10)
-    - [Project \& Documentatie (15%)](#project--documentatie-15)
+    - [opmaak (20%)](#opmaak-20)
+    - [JavaScript \& API's (25%)](#javascript--apis-25)
+    - [bronbestanden (10%)](#bronbestanden-10)
+    - [project \& documentatie (15%)](#project--documentatie-15)
 
-## 🥅 Overzicht en Leerdoelen
+## 🥅 overzicht en leerdoelen
 
 - De student past HTML toe voor de constructie van een webpagina en hedendaagse webfunctionaliteiten.
 - De student hanteert een correcte syntax en semantiek bij de structurele opbouw in HTML | CSS | JavaScript.
@@ -22,27 +22,26 @@
 - De student host/structureert websites op een webserver.
 - De student voegt eenvoudige JavaScript-functionaliteiten toe aan een website.
 
-## 🔍 Langlopende Taak
+## 🔍 langlopende taak
 
-Je maakt een website, gemaakt met de technologieën die werden behandeld tijdens de les: HTML, Bootstrap (CSS) en Javascript.
+Je maakt een website met dashboard, gemaakt met de technologieën die werden behandeld tijdens de les: HTML, Bootstrap (CSS) en Javascript.
 
-De website gaat over een onderwerp dat je zelf kiest, met telkens 6 topics die hermee verband houden. Je website zal gebruik moeten maken van een API, dus kies best een onderwerp waar je een API over kan terugvinden. Enkele voorbeelden:
+De website met dashboard gaat over een onderwerp gelinkt aan jouw studierichting. Jouw website met dashboard zal gebruik moeten maken van een zelfgekozen API, die gelinkt kan worden aan ouw topic. Enkele voorbeelden:
 
-Gebruik een API die je in deze lijst kan vinden: https://api.sampleapis.com.
-De voorbeelden die in de les aan bod komen, mag je niet gebruiken.
+De voorbeelden die in de les aan bod komen, mag je niet gebruiken: https://api.sampleapis.com.
 
-**BELANGRIJK!** Je moet niet alle teksten volledig zelf schrijven. Maak _om de teksten te schrijven_ gerust gebruik van tools als chat GPT.
+**BELANGRIJK!** Je moet niet alle teksten volledig zelf schrijven. Maak _om de teksten te schrijven_ gerust gebruik van tools als ChatGPT.
 
-Je website bevat verschillende pagina's:
+Je website met dashboard bevat verschillende pagina's:
 
 - **home** (`index.html`): 1 pagina met een beschrijving van jouw onderwerp. Deze pagina _moet_ bevatten:
   - een sfeerbeeld
   - een uitleg over jezelf in de context van het onderwerp
   - een foto van jezelf
-- **overzicht** (`overzicht.html`): 1 pagina met een overzicht van 6 topics die verband houden met jouw onderwerp. Deze pagina _moet_ voor _elk topic_ bevatten:
+- **overzicht** (`overzicht.html`): 1 pagina met een overzicht van 6 functionaliteiten gelinkt aan jouw app/website met dashboard. Deze pagina _moet_ voor _elk topic_ bevatten:
   - een titel, waar je op kan klikken om op een detailpagina terecht te komen
   - een korte uitleg
-  - een bijhorende foto
+  - een bijhorend icoontje en/of foto
 - **topic-pagina's**: voor elk topic een pagina dat in detail het topic beschrijft. Deze pagina _moet_ bevatten:
   - titel van het topic
   - ondertitel
@@ -63,7 +62,7 @@ Elke pagina moet ook voldoen aan de volgende eisen:
 
 Als laatste zorg je dat je website gehost wordt als een Github Pages website (wordt tijdens de les behandeld).
 
-## 🛠️ Opdrachten
+## 🛠️ opdrachten
 
 <details>
 <summary>opdracht 1: Onderwerp Vinden</summary>
