@@ -32,6 +32,8 @@ De voorbeelden die in de les aan bod komen, mag je niet gebruiken: https://api.s
 
 **BELANGRIJK!** Je moet niet alle teksten volledig zelf schrijven. Maak _om de teksten te schrijven_ gerust gebruik van tools als ChatGPT.
 
+**deel1&2!** In de map "deel1&2" zet je één Word-document met daarin jouw teksten, beeldmateriaal, voorbeelden ter inspiratie, logo, kleurenpallet en wireframes.
+
 Je website met dashboard bevat verschillende pagina's:
 
 - **home** (`index.html`): 1 pagina met een beschrijving van jouw onderwerp. Deze pagina _moet_ bevatten:
