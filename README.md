@@ -38,16 +38,16 @@ Je website met dashboard bevat verschillende pagina's:
   - een sfeerbeeld
   - een uitleg over jezelf in de context van het onderwerp
   - een foto van jezelf
-- **overzicht** (`overzicht.html`): 1 pagina met een overzicht van 6 functionaliteiten gelinkt aan jouw app/website met dashboard. Deze pagina _moet_ voor _elk topic_ bevatten:
+- **diensten** (`diensten.html`): 1 pagina met een overzicht van 6 diensten/functionaliteiten gelinkt aan jouw app/website met dashboard. Deze pagina _moet_ voor _elk topic_ bevatten:
   - een titel, waar je op kan klikken om op een detailpagina terecht te komen
   - een korte uitleg
   - een bijhorend icoontje en/of foto
-- **topic-pagina's**: voor elk topic een pagina dat in detail het topic beschrijft. Deze pagina _moet_ bevatten:
-  - titel van het topic
+- **topic-pagina's**: voor elk dienst/topic een detailpagina die de dienst of topic beschrijft. Deze pagina _moet_ bevatten:
+  - titel van dienst/topic
   - ondertitel
   - minstens 1 lijst
   - minstens 1 `figure` met afbeelding en bijschrift
-  - minstens 2 topics pagina's bevatten een kaart met een markering, met behulp van de Leaflet library
+  - minstens 2 topics pagina's bevatten een kaart met een markering, met behulp van de Leaflet-library
   - 1 semantische tabel met bijschrift
 - **contact** (`contact.html`): 1 pagina met een contactformulier waar zowel jij als de webdesigner gecontacteerd kunnen worden. Deze pagina _moet_ bevatten:
   - een contactformulier voor de 'admin' en voor de 'webdesigner' (1 ervan mag dus een fictief persoon zijn, maar het moeten 2 verschillende personen zijn)
