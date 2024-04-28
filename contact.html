@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacteer Ons</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2vEFF1Bj7jrsysCHZwLDo8LK3Ft9FmMnD4nI1H82Fq5NSA4a2BeLgiOrpe6vKMj1WSI5awQ=="
+          crossorigin=""/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-nMMK5JDYjDnW9a3v5hCL8b9k7Fj4JDxHQbMF+o8ad9w5K2jocjHAH2m3own2GnKZuBq2e3p5K+Ok8kVbKY3Y2w=="
+            crossorigin="" defer></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+
+        <div class="container-fluid">
+    
+          <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/image.png" alt="Logo" style="max-height: 50px;"></a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <img src="assets/DALL·E 2024-04-28 15.32.36 - Create an image of a professional and confident woman with an approachable look. She is in her 30s, with shoulder-length straight brown hair, and is w.webp" class="img-fluid" alt="...">
+            </span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <a class="nav-link" href="diensten.html">Aanbod</a>
+              </li>
+    
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Over ons</a>
+              </li>
+    
+              <li class="nav-item dropdown">
+    
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Meer Info</a>
+    
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html">Onze Bedrijf</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+    
+              </li>
+
+    
+            </ul>
+    
+            <form class="d-flex">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+            </form>
+    
+          </div>
+    
+        </div>
+      </nav>
+</header>
+
+<main>
+    <section class="container mt-5 pt-5">
+        <h2>Contacteer</h2>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h3>Younes Amghar</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="adminName" class="form-label">Naam</label>
+                        <input type="text" class="form-control" id="adminName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="adminEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="adminEmail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="adminMessage" class="form-label">Bericht</label>
+                        <textarea class="form-control" id="adminMessage" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Verstuur</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Contacteer</h3>
+                <h2>Emma Van Dalle</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="designerName" class="form-label">Naam</label>
+                        <input type="text" class="form-control" id="designerName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="designerEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="designerEmail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="designerMessage" class="form-label">Bericht</label>
+                        <textarea class="form-control" id="designerMessage" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Verstuur</button>
+                </form>
+            </div>
+        </div>
+
+        <aside class="col-md-3 border-start ps-5">
+            <h2 class="text-uppercase fs-4 fw-bolder pt-3">info</h2>
+            <p>CyberWord<br>
+              email <a href="FoxSecurity@info.be">CyberWord@info.be</a><br>
+              phone +32 123.456</p>
+            <ul class="list-inline socials">
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com" target="_blank">
+                  <i class="bi bi-youtube koffiebruin fs-3"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com" target="_blank">
+                  <i class="bi bi-instagram koffiebruin fs-3"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com" target="_blank">
+                  <i class="bi bi-facebook koffiebruin fs-3"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="bi bi-twitter koffiebruin fs-3"></i>
+                </a>
+              </li>             
+            </ul>
+            <h2 class="container mt-5">Locatie</h2>
+            <div id="map" class="container mb-5">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4996.818235116066!2d4.413595411763181!3d51.229959830816085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f1df94eb28a5%3A0x39934ed1372329aa!2sAP%20Hogeschool%20-%20Campus%20Spoor%20Noord%20-%20Ellermanstraat!5e0!3m2!1snl!2sbe!4v1714069286994!5m2!1snl!2sbe" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </aside>
+    </section>
+</main>
+
+<footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">© CyberWord 2024 - CyberWord BV - Ellermanstraat 33, 2060 Antwerpen – BTW BE 0123.456.789 - RPR Antwerpen</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer> 
